@@ -14,7 +14,7 @@
  <include file="$(find home_service)/launch/robot_description.launch"/>             
 
   <!-- World File -->
-  <arg name="world_file" default="$(find home_service)/worlds/project1_world"/>
+  <arg name="world_file" default="$(find home_service)/worlds/home_world"/>
 
   <!-- Launch Gazebo World -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">

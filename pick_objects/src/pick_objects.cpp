@@ -44,7 +44,7 @@ int main(int argc, char** argv){
 
   // stating the pickup and dropoff
   double pickup[2] = {4.0, 1.0};
-  double dropoff[2] = {3.0, -3.0};
+  double dropoff[2] = {4.0, 4.0};
 
   ROS_INFO("Initiallizing navigation to pick-up & drop-off zones.."); 
 
