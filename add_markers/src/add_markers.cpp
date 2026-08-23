@@ -11,7 +11,7 @@ ros::Publisher marker_pub;
 
 // stating the pickup and dropoff
 double pickup[2] = {4.0, 1.0};
-double dropoff[2] = {3.0, -3.0};
+double dropoff[2] = {4.0, 4.0};
 double robo_x = 0.0;
 double robo_y = 0.0;
 bool picked_up = false;
