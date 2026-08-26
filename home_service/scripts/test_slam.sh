@@ -22,5 +22,5 @@ xterm -e "roslaunch home_service view_navigation.launch" &
 sleep 5
 
 # Launch keyboard teleop to control the robot
-xterm -e "roslaunch turtlebot_teleop keyboard_teleop.launch"
+xterm -e "rosrun teleop_twist_keyboard teleop_twist_keyboard.py"
 
