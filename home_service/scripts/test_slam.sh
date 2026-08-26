@@ -1,25 +1,25 @@
 #!/bin/bash
 
-cd ../..
+cd ../../..
 
 source devel/setup.bash
 
 #Launch the turtlebot world
-xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch" &
+xterm -e "roslaunch home_service world.launch" &
 
 # Wait for a few seconds to ensure the world is loaded
-sleep 5
+sleep 7
 
 # Launch the gmapping demo
-xterm -e "roslaunch turtlebot_gazebo gmapping_demo.launch" &
+xterm -e "roslaunch home_service gmapping_demo.launch" &
 
 # Wait for a few seconds to ensure gmapping is loaded
-sleep 5
+sleep 7
 
 # Launch RViz to visualize the map
-xterm -e "roslaunch turtlebot_rviz_launchers view_navigation.launch" &
+xterm -e "roslaunch home_service view_navigation.launch" &
 
-sleep 3
+sleep 5
 
 # Launch keyboard teleop to control the robot
 xterm -e "roslaunch turtlebot_teleop keyboard_teleop.launch"
