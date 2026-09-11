@@ -3,7 +3,7 @@
 This project is the final project in Udacity's Robotics Software Engineer Nanodegree. In this project, I combined the skills learned throughout the program to build a robot that can navigate through a virtual world, pick up a virtual object, and deliver it to a designated drop-off location.
 
 <p align="center" width="100%">
-    <img src="video_for_markdown.mov" alt="Home Service Robot" width="500">
+    <img src="pick_object.gif" alt="Home Service Robot" width="500">
     <br>Home Service Robot
 </p>
 
